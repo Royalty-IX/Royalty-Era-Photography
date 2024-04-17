@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <!---META DETAILS-->
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="personal profile website"/>
+        <meta name="keywords" content="life, profile, interests"/>
+        <meta name="author" content="Welcome Kunene">
+
+    <!--FONT AWESOME ICONS-->
+    <script src="https://kit.fontawesome.com/c7abea2177.js" crossorigin="anonymous"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/CSS/gallery-styling.css">
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="assets/Images/Royalty Era Photography White Signature.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/Icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/Icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/Icons/site.webmanifest">
+
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="container">
+
+    <!--HEADER-->
+
+        <nav id="header">
+            <div class="nav-logo">
+                <a href="#home" class="nav-name">Royalty
+                <span>.</span></a>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="index.html#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="index.html#projects" class="nav-link active-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <!----DARK MODE TOGGLE-->
+
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="dark-mode-switch">
+                <label for="dark-mode-switch"></label>
+              </div>
+            
+            
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+    <!---POPUP-->
+        <div class="popup">
+            <!---TOP BAR-->
+            <div class="top-bar">
+                <p class="image-name">img1.png</p>
+                <span class="close-btn"></span>
+            </div>
+                <!---ARROW-->
+                <button class="arrow-btn left-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="arrow-btn right-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+                <!---IMAGE-->
+                <img src="assets/Images/01.jpg" class="large-image">
+                <!---IMAGE INDEX-->
+                <h1 class="index">01</h1>
+        </div>
+
+    
+            <!---GALLERY--->
+            <section class="gallery">
+
+                <section  id="Beauty">
+                    <div class="gallery-heading">
+                        <h3>Beauty Photography</h3>
+                    </div>
+                    <div class="gallery-grid">
+                        <img class="image" src="assets/Images/Beauty/kea-face.jpg">
+                        <img class="image" src="assets/Images/Beauty/pontso-face.jpg">
+                        <img class="image" src="assets/Images/Beauty/siya-face.jpg">
+                        <img class="image" src="assets/Images/Beauty/kea-harvest.jpg">
+                        <img class="image" src="assets/Images/Beauty/nobuntu-face.jpg">
+                        <img class="image" src="assets/Images/Beauty/kevia-face.jpg">
+                        <img class="image" src="assets/Images/Beauty/faith-face.jpg">
+                        <img class="image" src="assets/Images/Beauty/sammy.jpg">
+                        <img class="image" src="assets/Images/Beauty/nozi.jpg">
+                        <img class="image" src="assets/Images/Beauty/pontso-2.jpg">
+                    </div>
+                </section>
+
+                <section id="Portrait">
+                    <div class="gallery-heading">
+                        <h3>Portrait Photography</h3>
+                    </div>
+                    <div class="gallery-grid">
+                        <img class="image" src="assets/Images/Portrait/arcade.jpg">
+                        <img class="image" src="assets/Images/Portrait/nolly.jpg">
+                        <img class="image" src="assets/Images/Portrait/monte.jpg">
+                        <img class="image" src="assets/Images/Portrait/jeru.jpg">
+                        <img class="image" src="assets/Images/Portrait/park.jpg">
+                        <img class="image" src="assets/Images/Portrait/doctor.jpg">
+                        <img class="image" src="assets/Images/Portrait/harvest.jpg">
+                        <img class="image" src="assets/Images/Portrait/function.jpg">
+                        <img class="image" src="assets/Images/Portrait/scott.jpg">
+                        <img class="image" src="assets/Images/Portrait/beauty.jpg">
+                    </div>
+                </section>
+
+                <section id="Events">
+                    <div class="gallery-heading">
+                        <h3>Event Photography</h3>
+                    </div>
+                    <div class="gallery-grid">
+                        <img class="image" src="assets/Images/Event/pretty-friends.jpg">
+                        <img class="image" src="assets/Images/Event/black-squad.jpg">
+                        <img class="image" src="assets/Images/Event/pinkth.jpg">
+                        <img class="image" src="assets/Images/Event/female-squad.jpg">
+                        <img class="image" src="assets/Images/Event/brown-lady.jpg">
+                        <img class="image" src="assets/Images/Event/meridian.jpg">
+                        <img class="image" src="assets/Images/Event/squad.jpg">
+                        <img class="image" src="assets/Images/Event/three-girls.jpg">
+                        <img class="image" src="assets/Images/Event/red-lady.jpg">
+                        <img class="image" src="assets/Images/Event/utensiles.jpg">
+                    </div>
+                </section>
+
+                <section id="Wedding">
+                    <div class="gallery-heading">
+                        <h3>Wedding Photography</h3>
+                    </div>
+                    <div class="gallery-grid">
+                        <img class="image" src="assets/Images/Wedding/malume.jpg">
+                        <img class="image" src="assets/Images/Wedding/makeup-session.jpg">
+                        <img class="image" src="assets/Images/Wedding/check.jpg">
+                        <img class="image" src="assets/Images/Wedding/sisters.jpg">
+                        <img class="image" src="assets/Images/Wedding/stand.jpg">
+                        <img class="image" src="assets/Images/Wedding/rituals.jpg">
+                        <img class="image" src="assets/Images/Wedding/family-walk.jpg">
+                        <img class="image" src="assets/Images/Wedding/walk-together.jpg">
+                        <img class="image" src="assets/Images/Wedding/pepe.jpg">
+                        <img class="image" src="assets/Images/Wedding/venda.jpg">
+                    </div>
+                </section>
+
+                <section id="Lifestyle">
+                    <div class="gallery-heading">
+                        <h3>Lifestyle Photography</h3>
+                    </div>
+                    <div class="gallery-grid">
+                        <img class="image" src="assets/Images/Lifestyle/sunset.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/class.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/forex.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/red-birthday.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/buddies.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/smiles.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/kay.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/father-son.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/mother-son.jpg">
+                        <img class="image" src="assets/Images/Lifestyle/numero.jpg">
+                    </div>
+                </section>
+
+                <section id="Fashion">
+                    <div class="gallery-heading">
+                        <h3>Fashion Photography</h3>
+                    </div>
+                    <div class="gallery-grid">
+                        <img class="image" src="assets/Images/Fashion/afro.jpg">
+                        <img class="image" src="assets/Images/Fashion/crosset.jpg">
+                        <img class="image" src="assets/Images/Fashion/hot.jpg">
+                        <img class="image" src="assets/Images/Fashion/monique.jpg">
+                        <img class="image" src="assets/Images/Fashion/mother.jpg">
+                        <img class="image" src="assets/Images/Fashion/nozi-model.jpg">
+                        <img class="image" src="assets/Images/Fashion/sammy-green.jpg">
+                        <img class="image" src="assets/Images/Fashion/sammy-yellow.jpg">
+                        <img class="image" src="assets/Images/Fashion/team-work.jpg">
+                        <img class="image" src="assets/Images/Fashion/wall.jpg">
+                    </div>
+                </section>
+
+            </section>
+
+        <div class="overlay"></div>
+
+    </div>
+
+
+    <!--FOOTER-->
+    <footer>
+        <div class="top-footer">
+            <p>Tshepo Kunene.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.instagram.com/royalty_era/" class="icon" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            <a href="https://www.facebook.com/RoyaltyEra/" class="icon" target="_blank"><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
+            <a href="https://wa.me/message/OGX7B2IGQ2HVD1" class="icon" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #000000;"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Tshepo Kunene</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+
+    <!--SCROLL REVEAL JS LINK-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--MAIN JS-->
+    <script src="assets/js/gallery.js"></script>
+
+    <!--TOGGLE DARK MODE PATH-->
+    <script src="/assets/js/dark-mode.js"></script>
+</body>
+
+</html>
